@@ -178,4 +178,4 @@ ggplot(df_melt, aes(x = variable, y = value, group = Group, color = Group)) +
   scale_x_discrete(labels = custom_labels) +  # Change x-axis labels
   scale_y_continuous(breaks = seq(0, 1, by = 0.1)) +
   labs(x = "Variables", y = "Normalised Values", color = "Group", title = 
-  "Parallel Coordinates Plot for Comparrison of Male and Female Diets for all Diet Groups")
+  "Parallel Coordinates Plot for Comparison of Male and Female Diets for all Diet Groups")
